@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/1600w-EQg5Hwrum8o.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center, right;
+}
+.miron {
+  position: absolute;
+  top: 20%;
+  font-family: monospace;
+  font-size: 40px;
+  color: #5d4a35;
+  padding: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.miron:hover {
+  background-color: #5d4a35;
+  color: white;
+}
+
+.container-info {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img img {
+  min-width: 400px;
+}
+.img-info {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+}
+
+.img-info h1 {
+  font-size: 40px;
+  color: green;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  transition: 0.4s;
+}
+.img-info h1:hover {
+  color: white;
+  background-color: green;
+}
+.img-info p {
+  font-size: 31px;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  background-color: green;
+  transition: 0.4s;
+}
+.img-info p:hover {
+  background-color: white;
+  color: green;
+}
