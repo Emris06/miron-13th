@@ -2,30 +2,29 @@
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .container {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("./1600w-EQg5Hwrum8o.webp");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center, right;
 }
 .miron {
   position: absolute;
   top: 20%;
   font-family: monospace;
   font-size: 40px;
-  color: #5d4a35;
+  color: green;
   padding: 20px;
   transition: 0.3s;
   cursor: pointer;
 }
 
 .miron:hover {
-  background-color: #5d4a35;
+  background-color: green;
   color: white;
 }
 
